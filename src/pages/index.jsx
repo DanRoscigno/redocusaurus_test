@@ -4,7 +4,7 @@ import Redoc from '@theme/Redoc';
 import useSpecData from '@theme/useSpecData';
 
 function CustomPage() {
-  const specData = useSpecData('using-custom-layout');
+  const specData = useSpecData('clickhouse-cloud-api');
   return (
     <Layout
       title="Custom Layout Docs"
@@ -16,3 +16,4 @@ function CustomPage() {
 }
 
 export default CustomPage;
+

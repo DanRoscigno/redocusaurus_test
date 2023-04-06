@@ -63,7 +63,7 @@ const config = {
         // Plugin Options for loading OpenAPI files
         specs: [
           {
-            id: 'test',
+            id: 'clickhouse-cloud-api',
             spec: 'openapi/openapi.yaml',
           },
         ],
